@@ -5,6 +5,7 @@
 </p>
 
 <p align="center">
+  <a href="https://doi.org/10.1145/3828523.3857132">Paper</a> &nbsp;·&nbsp;
   <a href="#documentation">Documentation</a> &nbsp;·&nbsp;
   <a href="#components">Components</a> &nbsp;·&nbsp;
   <a href="#running-the-simulator">Get started</a> &nbsp;·&nbsp;
@@ -72,6 +73,7 @@ The PDF retains the two supporting figures outside the revised main paper. The [
 
 ```text
 README.md
+CITATION.cff
 docs/
   supplementary-results.pdf
   running-hybridqc.pdf
@@ -91,7 +93,30 @@ examples/
 
 **Panayiotis Christou · Shuwen Kan · Ying Mao**
 
-*HybridQC: Hardware-Grounded Simulation of Tightly Integrated Hybrid Quantum-Classical Systems.*
+*[HybridQC: Hardware-Grounded Simulation of Tightly Integrated Hybrid Quantum-Classical Systems](https://doi.org/10.1145/3828523.3857132).*
+
+**SIGOPS ATC 2026**, November 15–18, Hong Kong, China. ACM.
+**Paper DOI:** [10.1145/3828523.3857132](https://doi.org/10.1145/3828523.3857132).
+
+Use the paper citation for HybridQC and the dataset citation for the numerical data. GitHub's **Cite this repository** menu provides the paper citation through [CITATION.cff](CITATION.cff).
+
+<details>
+<summary><strong>Copy the paper citation</strong></summary>
+
+```bibtex
+@inproceedings{christou_hybridqc_2026,
+  author    = {Christou, Panayiotis and Kan, Shuwen and Mao, Ying},
+  title     = {{HybridQC}: Hardware-Grounded Simulation of Tightly Integrated Hybrid Quantum-Classical Systems},
+  booktitle = {The 2026 ACM SIGOPS Annual Technical Conference},
+  series    = {SIGOPS ATC 2026},
+  year      = {2026},
+  publisher = {Association for Computing Machinery},
+  doi       = {10.1145/3828523.3857132},
+  url       = {https://doi.org/10.1145/3828523.3857132}
+}
+```
+
+</details>
 
 For the numerical data, cite **[HybridQC: Supplementary Data](https://doi.org/10.5281/zenodo.23170503)**. The dataset is distributed under **CC BY 4.0**.
 
@@ -110,3 +135,9 @@ For the numerical data, cite **[HybridQC: Supplementary Data](https://doi.org/10
 ```
 
 </details>
+
+## Licenses
+
+- **Paper:** [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/), as recorded in the ACM publication release.
+- **Zenodo dataset:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+- **Repository:** the existing [Apache 2.0 license](LICENSE) remains in place. The paper and dataset have the separate licenses listed above.

@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+message: "Please cite the HybridQC paper using the preferred citation below. Cite the Zenodo dataset separately when using its numerical data."
+type: software
+title: HybridQC
+authors:
+  - family-names: Christou
+    given-names: Panayiotis
+    orcid: "https://orcid.org/0000-0002-1172-3779"
+  - family-names: Kan
+    given-names: Shuwen
+  - family-names: Mao
+    given-names: Ying
+repository-code: "https://github.com/panaschristou/hybridqc"
+url: "https://github.com/panaschristou/hybridqc"
+keywords:
+  - Hybrid quantum-classical computing
+  - discrete-event simulation
+  - resource contention
+  - scheduling
+  - performance modeling
+preferred-citation:
+  type: conference-paper
+  title: "HybridQC: Hardware-Grounded Simulation of Tightly Integrated Hybrid Quantum-Classical Systems"
+  authors:
+    - family-names: Christou
+      given-names: Panayiotis
+    - family-names: Kan
+      given-names: Shuwen
+    - family-names: Mao
+      given-names: Ying
+  collection-title: "The 2026 ACM SIGOPS Annual Technical Conference"
+  collection-type: "SIGOPS ATC 2026"
+  year: 2026
+  publisher:
+    name: Association for Computing Machinery
+  doi: 10.1145/3828523.3857132
+  url: "https://doi.org/10.1145/3828523.3857132"
+  license: CC-BY-NC-ND-4.0
+references:
+  - type: data
+    title: "HybridQC: Supplementary Data"
+    authors:
+      - family-names: Christou
+        given-names: Panayiotis
+      - family-names: Kan
+        given-names: Shuwen
+      - family-names: Mao
+        given-names: Ying
+    year: 2026
+    doi: 10.5281/zenodo.23170503
+    url: "https://doi.org/10.5281/zenodo.23170503"
+    license: CC-BY-4.0
