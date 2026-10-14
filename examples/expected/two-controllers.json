@@ -1,0 +1,39 @@
+{
+  "engine": "rust_transition_v2",
+  "policy": "fifo",
+  "jobs_submitted": 8,
+  "jobs_completed": 8,
+  "total_time_s": 35.0,
+  "job_end_s": {
+    "1": 31.0,
+    "2": 32.0,
+    "3": 32.0,
+    "4": 33.0,
+    "5": 33.0,
+    "6": 34.0,
+    "7": 34.0,
+    "8": 35.0
+  },
+  "makespan_mean_s": 33.0,
+  "stage_count": {
+    "DQC": 8,
+    "DQC_CTRL_READOUT": 8,
+    "DQC_CTRL_STAGE": 8,
+    "POST": 8,
+    "PRE": 8
+  },
+  "stage_service_time_s": {
+    "DQC": 16.0,
+    "DQC_CTRL_READOUT": 8.0,
+    "DQC_CTRL_STAGE": 32.0,
+    "POST": 8.0,
+    "PRE": 8.0
+  },
+  "stage_wait_time_s": {
+    "DQC": 72.0,
+    "DQC_CTRL_READOUT": 45.0,
+    "DQC_CTRL_STAGE": 52.0,
+    "POST": 11.0,
+    "PRE": 12.0
+  }
+}

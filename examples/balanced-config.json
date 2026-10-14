@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "graph": {
+    "nodes": [
+      {
+        "id": "CPU",
+        "base": "CPU",
+        "num_devices": 2,
+        "memory_gb": 16.0,
+        "qubits": 0
+      },
+      {
+        "id": "DQC_CTRL",
+        "base": "DQC_CTRL",
+        "num_devices": 2,
+        "memory_gb": 1.0,
+        "qubits": 0
+      },
+      {
+        "id": "DQC",
+        "base": "DQC",
+        "num_devices": 2,
+        "memory_gb": 1.0,
+        "qubits": 32
+      }
+    ],
+    "edges": []
+  },
+  "sim": {
+    "horizon_s": 100.0,
+    "seed": 7,
+    "dqc_allocation_mode": "monolithic_cohort",
+    "dqc_partition_count": 1,
+    "dqc_partition_qubits": 0
+  },
+  "policy": {
+    "name": "fifo",
+    "params": {}
+  },
+  "runtime": {
+    "qec": {
+      "enabled": false
+    },
+    "scheduler": {
+      "execution": "microstep"
+    }
+  }
+}

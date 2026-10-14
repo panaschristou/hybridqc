@@ -1,0 +1,118 @@
+[
+  {
+    "job_id": 1,
+    "arrive_time_s": 0.0,
+    "workload": "qa_to_dqc_tutorial",
+    "tasks": [
+      {
+        "stage": "PRE",
+        "device": "CPU",
+        "duration_s": 1.0,
+        "mem_gb": 0.01
+      },
+      {
+        "stage": "QA_CTRL_PROGRAM",
+        "device": "QA_CTRL",
+        "duration_s": 0.5
+      },
+      {
+        "stage": "QA",
+        "device": "QA",
+        "duration_s": 1.0,
+        "qubits": 128
+      },
+      {
+        "stage": "QA_CTRL_READOUT",
+        "device": "QA_CTRL",
+        "duration_s": 0.5
+      },
+      {
+        "stage": "MID",
+        "device": "CPU",
+        "duration_s": 1.0
+      },
+      {
+        "stage": "DQC_CTRL_STAGE",
+        "device": "DQC_CTRL",
+        "duration_s": 4.0,
+        "mem_gb": 0.01
+      },
+      {
+        "stage": "DQC",
+        "device": "DQC",
+        "duration_s": 2.0,
+        "qubits": 32
+      },
+      {
+        "stage": "DQC_CTRL_READOUT",
+        "device": "DQC_CTRL",
+        "duration_s": 1.0,
+        "mem_gb": 0.01
+      },
+      {
+        "stage": "POST",
+        "device": "CPU",
+        "duration_s": 1.0,
+        "mem_gb": 0.01
+      }
+    ]
+  },
+  {
+    "job_id": 2,
+    "arrive_time_s": 0.0,
+    "workload": "qa_to_dqc_tutorial",
+    "tasks": [
+      {
+        "stage": "PRE",
+        "device": "CPU",
+        "duration_s": 1.0,
+        "mem_gb": 0.01
+      },
+      {
+        "stage": "QA_CTRL_PROGRAM",
+        "device": "QA_CTRL",
+        "duration_s": 0.5
+      },
+      {
+        "stage": "QA",
+        "device": "QA",
+        "duration_s": 1.0,
+        "qubits": 128
+      },
+      {
+        "stage": "QA_CTRL_READOUT",
+        "device": "QA_CTRL",
+        "duration_s": 0.5
+      },
+      {
+        "stage": "MID",
+        "device": "CPU",
+        "duration_s": 1.0
+      },
+      {
+        "stage": "DQC_CTRL_STAGE",
+        "device": "DQC_CTRL",
+        "duration_s": 4.0,
+        "mem_gb": 0.01
+      },
+      {
+        "stage": "DQC",
+        "device": "DQC",
+        "duration_s": 2.0,
+        "qubits": 32
+      },
+      {
+        "stage": "DQC_CTRL_READOUT",
+        "device": "DQC_CTRL",
+        "duration_s": 1.0,
+        "mem_gb": 0.01
+      },
+      {
+        "stage": "POST",
+        "device": "CPU",
+        "duration_s": 1.0,
+        "mem_gb": 0.01
+      }
+    ]
+  }
+]
