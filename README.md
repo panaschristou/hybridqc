@@ -140,4 +140,4 @@ For the numerical data, cite **[HybridQC: Supplementary Data](https://doi.org/10
 
 - **Paper:** [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/), as recorded in the ACM publication release.
 - **Zenodo dataset:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
-- **Repository:** the existing [Apache 2.0 license](LICENSE) remains in place. The paper and dataset have the separate licenses listed above.
+- **Repository:** unless otherwise noted, the materials in this repository are licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/). See [LICENSE](LICENSE) for the full terms.

@@ -1,6 +1,7 @@
 cff-version: 1.2.0
 message: "Please cite the HybridQC paper using the preferred citation below. Cite the Zenodo dataset separately when using its numerical data."
 type: software
+license: CC-BY-NC-ND-4.0
 title: HybridQC
 authors:
   - family-names: Christou
